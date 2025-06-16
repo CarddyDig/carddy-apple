@@ -1,0 +1,35 @@
+{
+  "name": "carddy",
+  "version": "1.0.0",
+  "description": "Carddy iOS App with standardized commit conventions",
+  "main": "index.js",
+  "scripts": {
+    "commit": "cz",
+    "commit:gitmoji": "gitmoji -c",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/your-username/carddy.git"
+  },
+  "keywords": [
+    "ios",
+    "swift",
+    "swiftui",
+    "commitizen",
+    "gitmoji"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "commitizen": "^4.3.1",
+    "cz-gitmoji-adapter": "^2.0.0",
+    "gitmoji-cli": "^9.7.0",
+    "husky": "^9.1.7"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-gitmoji-adapter"
+    }
+  }
+}

@@ -1,0 +1,433 @@
+{
+  "path": "cz-gitmoji-adapter",
+  "gitmoji-adapter": {
+    "types": [
+      {
+        "emoji": "✨",
+        "code": ":sparkles:",
+        "description": "引入新功能",
+        "name": "feat"
+      },
+      {
+        "emoji": "🐛",
+        "code": ":bug:",
+        "description": "修复 bug",
+        "name": "fix"
+      },
+      {
+        "emoji": "📝",
+        "code": ":memo:",
+        "description": "添加或更新文档",
+        "name": "docs"
+      },
+      {
+        "emoji": "💄",
+        "code": ":lipstick:",
+        "description": "更新 UI 和样式文件",
+        "name": "style"
+      },
+      {
+        "emoji": "♻️",
+        "code": ":recycle:",
+        "description": "重构代码",
+        "name": "refactor"
+      },
+      {
+        "emoji": "⚡️",
+        "code": ":zap:",
+        "description": "提升性能",
+        "name": "perf"
+      },
+      {
+        "emoji": "✅",
+        "code": ":white_check_mark:",
+        "description": "添加、更新或通过测试",
+        "name": "test"
+      },
+      {
+        "emoji": "🔧",
+        "code": ":wrench:",
+        "description": "添加或更新配置文件",
+        "name": "chore"
+      },
+      {
+        "emoji": "🚀",
+        "code": ":rocket:",
+        "description": "部署功能",
+        "name": "deploy"
+      },
+      {
+        "emoji": "🎨",
+        "code": ":art:",
+        "description": "改进代码结构/代码格式",
+        "name": "format"
+      },
+      {
+        "emoji": "🔥",
+        "code": ":fire:",
+        "description": "删除代码或文件",
+        "name": "remove"
+      },
+      {
+        "emoji": "🚧",
+        "code": ":construction:",
+        "description": "工作进行中",
+        "name": "wip"
+      },
+      {
+        "emoji": "📱",
+        "code": ":iphone:",
+        "description": "响应式设计",
+        "name": "responsive"
+      },
+      {
+        "emoji": "🍎",
+        "code": ":apple:",
+        "description": "修复 macOS 上的某些功能",
+        "name": "osx"
+      },
+      {
+        "emoji": "🤖",
+        "code": ":robot:",
+        "description": "修复 Android 上的某些功能",
+        "name": "android"
+      },
+      {
+        "emoji": "🏁",
+        "code": ":checkered_flag:",
+        "description": "修复 Windows 上的某些功能",
+        "name": "windows"
+      },
+      {
+        "emoji": "🐧",
+        "code": ":penguin:",
+        "description": "修复 Linux 上的某些功能",
+        "name": "linux"
+      },
+      {
+        "emoji": "🔖",
+        "code": ":bookmark:",
+        "description": "发行/版本标签",
+        "name": "release"
+      },
+      {
+        "emoji": "🚨",
+        "code": ":rotating_light:",
+        "description": "修复编译器/代码检查警告",
+        "name": "lint"
+      },
+      {
+        "emoji": "🚑",
+        "code": ":ambulance:",
+        "description": "重要补丁",
+        "name": "quickfix"
+      },
+      {
+        "emoji": "⬆️",
+        "code": ":arrow_up:",
+        "description": "升级依赖",
+        "name": "upgrade"
+      },
+      {
+        "emoji": "⬇️",
+        "code": ":arrow_down:",
+        "description": "降级依赖",
+        "name": "downgrade"
+      },
+      {
+        "emoji": "📌",
+        "code": ":pushpin:",
+        "description": "将依赖关系固定到特定版本",
+        "name": "pin"
+      },
+      {
+        "emoji": "👷",
+        "code": ":construction_worker:",
+        "description": "添加或更新 CI 构建系统",
+        "name": "ci"
+      },
+      {
+        "emoji": "📈",
+        "code": ":chart_with_upwards_trend:",
+        "description": "添加或更新分析或跟踪代码",
+        "name": "analytics"
+      },
+      {
+        "emoji": "🔨",
+        "code": ":hammer:",
+        "description": "添加或更新开发脚本",
+        "name": "script"
+      },
+      {
+        "emoji": "🌐",
+        "code": ":globe_with_meridians:",
+        "description": "国际化与本地化",
+        "name": "i18n"
+      },
+      {
+        "emoji": "💩",
+        "code": ":poop:",
+        "description": "编写需要改进的错误代码",
+        "name": "poop"
+      },
+      {
+        "emoji": "⏪",
+        "code": ":rewind:",
+        "description": "恢复更改",
+        "name": "revert"
+      },
+      {
+        "emoji": "🔀",
+        "code": ":twisted_rightwards_arrows:",
+        "description": "合并分支",
+        "name": "merge"
+      },
+      {
+        "emoji": "📦",
+        "code": ":package:",
+        "description": "添加或更新编译的文件或包",
+        "name": "package"
+      },
+      {
+        "emoji": "👽",
+        "code": ":alien:",
+        "description": "由于外部API更改而更新代码",
+        "name": "compat"
+      },
+      {
+        "emoji": "🚚",
+        "code": ":truck:",
+        "description": "移动或重命名资源（例如：文件、路径、路由）",
+        "name": "move"
+      },
+      {
+        "emoji": "📄",
+        "code": ":page_facing_up:",
+        "description": "添加或更新许可证",
+        "name": "license"
+      },
+      {
+        "emoji": "💥",
+        "code": ":boom:",
+        "description": "引入破坏性变化",
+        "name": "breaking"
+      },
+      {
+        "emoji": "🍱",
+        "code": ":bento:",
+        "description": "添加或更新资源",
+        "name": "assets"
+      },
+      {
+        "emoji": "♿️",
+        "code": ":wheelchair:",
+        "description": "改善可访问性",
+        "name": "access"
+      },
+      {
+        "emoji": "💡",
+        "code": ":bulb:",
+        "description": "在源代码中添加或更新注释",
+        "name": "docs-code"
+      },
+      {
+        "emoji": "🍻",
+        "code": ":beers:",
+        "description": "醉生梦死的写代码",
+        "name": "beer"
+      },
+      {
+        "emoji": "💬",
+        "code": ":speech_balloon:",
+        "description": "添加或更新文本和文字",
+        "name": "texts"
+      },
+      {
+        "emoji": "🗃",
+        "code": ":card_file_box:",
+        "description": "执行与数据库相关的更改",
+        "name": "db"
+      },
+      {
+        "emoji": "🔊",
+        "code": ":loud_sound:",
+        "description": "添加或更新日志",
+        "name": "log-add"
+      },
+      {
+        "emoji": "🔇",
+        "code": ":mute:",
+        "description": "删除日志",
+        "name": "log-remove"
+      },
+      {
+        "emoji": "👥",
+        "code": ":busts_in_silhouette:",
+        "description": "添加或更新贡献者",
+        "name": "contrib-add"
+      },
+      {
+        "emoji": "🚸",
+        "code": ":children_crossing:",
+        "description": "改善用户体验/可用性",
+        "name": "ux"
+      },
+      {
+        "emoji": "🏗",
+        "code": ":building_construction:",
+        "description": "进行架构更改",
+        "name": "arch"
+      },
+      {
+        "emoji": "📱",
+        "code": ":iphone:",
+        "description": "致力于响应式设计",
+        "name": "iphone"
+      },
+      {
+        "emoji": "🤡",
+        "code": ":clown_face:",
+        "description": "嘲笑事物",
+        "name": "clown-face"
+      },
+      {
+        "emoji": "🥚",
+        "code": ":egg:",
+        "description": "添加或更新复活节彩蛋",
+        "name": "egg"
+      },
+      {
+        "emoji": "🙈",
+        "code": ":see_no_evil:",
+        "description": "添加或更新 .gitignore 文件",
+        "name": "ignore"
+      },
+      {
+        "emoji": "📸",
+        "code": ":camera_flash:",
+        "description": "添加或更新快照",
+        "name": "camera-flash"
+      },
+      {
+        "emoji": "⚗",
+        "code": ":alembic:",
+        "description": "进行实验",
+        "name": "experiment"
+      },
+      {
+        "emoji": "🔍",
+        "code": ":mag:",
+        "description": "改善SEO",
+        "name": "seo"
+      },
+      {
+        "emoji": "🏷️",
+        "code": ":label:",
+        "description": "添加或更新类型",
+        "name": "types"
+      },
+      {
+        "emoji": "🌱",
+        "code": ":seedling:",
+        "description": "添加或更新种子文件",
+        "name": "seed"
+      },
+      {
+        "emoji": "🚩",
+        "code": ":triangular_flag_on_post:",
+        "description": "添加、更新或删除功能标志",
+        "name": "flags"
+      },
+      {
+        "emoji": "🥅",
+        "code": ":goal_net:",
+        "description": "捕获错误",
+        "name": "catch"
+      },
+      {
+        "emoji": "💫",
+        "code": ":dizzy:",
+        "description": "添加或更新动画和过渡",
+        "name": "animation"
+      },
+      {
+        "emoji": "🗑",
+        "code": ":wastebasket:",
+        "description": "弃用需要清理的代码",
+        "name": "wastebasket"
+      },
+      {
+        "emoji": "🛂",
+        "code": ":passport_control:",
+        "description": "处理与授权、角色和权限相关的代码",
+        "name": "passport-control"
+      },
+      {
+        "emoji": "🩹",
+        "code": ":adhesive_bandage:",
+        "description": "非关键问题的简单修复",
+        "name": "simple-fix"
+      },
+      {
+        "emoji": "🧐",
+        "code": ":monocle_face:",
+        "description": "数据探索/检查",
+        "name": "data-exploration"
+      },
+      {
+        "emoji": "⚰️",
+        "code": ":coffin:",
+        "description": "删除无效代码",
+        "name": "dead-code"
+      },
+      {
+        "emoji": "🧪",
+        "code": ":test_tube:",
+        "description": "添加失败的测试",
+        "name": "test-fail"
+      },
+      {
+        "emoji": "👔",
+        "code": ":necktie:",
+        "description": "添加或更新业务逻辑",
+        "name": "business-logic"
+      },
+      {
+        "emoji": "🩺",
+        "code": ":stethoscope:",
+        "description": "添加或更新健康检查",
+        "name": "healthcheck"
+      },
+      {
+        "emoji": "🧱",
+        "code": ":bricks:",
+        "description": "与基础设施相关的变更",
+        "name": "infrastructure"
+      },
+      {
+        "emoji": "🧑‍💻",
+        "code": ":technologist:",
+        "description": "改善开发者体验",
+        "name": "dx"
+      },
+      {
+        "emoji": "💸",
+        "code": ":money_with_wings:",
+        "description": "添加赞助或金钱相关的基础设施",
+        "name": "sponsor"
+      },
+      {
+        "emoji": "🧵",
+        "code": ":thread:",
+        "description": "添加或更新与多线程或并发相关的代码",
+        "name": "thread"
+      },
+      {
+        "emoji": "🦺",
+        "code": ":safety_vest:",
+        "description": "添加或更新与验证相关的代码",
+        "name": "validation"
+      }
+    ]
+  }
+}
